@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <title>phone demo</title>
+        <style>
+        
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+        <script type = "text/javascript" src = "phone.js"></script>
+        <link rel = "stylesheet" href = "phone.css">
+
+    </head>
+    <body>
+        <div id = "tab_bar" >
+                <button class = "upbarbutton" id = "DialerUp">Dialer</button>
+                <button class = "upbarbutton" id = "ContactListUp">Contact List</button>
+                <button class = "upbarbutton" id = "AddContactUp">Add Contact</button>
+        </div>
+        <div id = "content">
+            <div id = "content_dialer">
+                    
+                    <h2 class ="hfont">Dialer</h2>
+                    
+                            <!--<label for = "number"></label>-->
+                            <input id ="number" placeholder=""><br>
+                            <button class = "dialerkey" id = "num1">1</button>
+                            <button class = "dialerkey" id = "num1">2</button>
+                            <button class = "dialerkey" id = "num1">3</button><br>
+                            <button class = "dialerkey" id = "num1">4</button>
+                            <button class = "dialerkey" id = "num1">5</button>
+                            <button class = "dialerkey" id = "num1">6</button><br>
+                            <button class = "dialerkey" id = "num1">7</button>
+                            <button class = "dialerkey" id = "num1">8</button>
+                            <button class = "dialerkey" id = "num1">9</button><br>
+                            <button class = "dialerkey" id = "num1">*</button>
+                            <button class = "dialerkey" id = "num1">0</button>
+                            <button class = "dialerkey" id = "num1">#</button><br>
+                            <button class = "functionkey" id = "dial">Dial</button>
+                            <button class = "functionkey" id = "clearnum">Clear</button>
+
+                        
+                        
+
+            </div>
+            
+            <div id = "content_list">
+                   
+                <h2 class ="hfont">Contact List</h2> 
+                    <button class = "contactname" id = "name1">Robert Drake</button>
+                    <button class = "contactname" id = "name2">Emma Frost</button>
+                    <button class = "contactname" id = "name3">Doreen Green</button><br>
+                    <button class = "contactname" id = "name4">Jean Grey</button>
+                    <button class = "contactname" id = "name5">James Howlett</button>
+                    <button class = "contactname" id = "name6">Ororo Munroe</button><br>
+                    <button class = "contactname" id = "name7">Katherine Pryde</button>
+                    <button class = "contactname" id = "name8">Piotr Rasputin</button>
+                    <button class = "contactname" id = "name9">Scotte Summers</button><br>
+                    <button class = "contactname" id = "name10">Kurt Wagner</button>
+                    <button class = "contactname" id = "name11">Warren Worthington</button>
+                    <button class = "contactname" id = "name12">Charles Xavier</button>         
+            </div>
+            <div id = "content_addcontact">
+                <h2 class ="hfont">Add Contact</h2>
+                <form>
+                    <label class ="insidefont" for = "name">Name</label><br>
+                    <input id = "name" placeholder=" Jane Smith">
+                </form>
+                <form>
+                        <label class ="insidefont" for = "phonenumber">Phone number</label><br>
+                        <input id = "phonenumber" placeholder=" 123-456-7890">
+                </form>
+                <form>
+                        <label class ="insidefont" for = "emailaddress">Email address</label><br>
+                        <input id = "emailaddress" placeholder=" jane.smith@colorado.edu">
+                </form>
+                <button  id = "addcontact">Add Contact</button>
+                <button  id = "clearinfo">Clear</button>
+                
+            </div>
+        </div>
+
+        </div>
+
+    </body>
+
+</html>
